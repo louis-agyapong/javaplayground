@@ -2,7 +2,8 @@ package org.playground;
 
 public class Main {
     public static void main(String[] args) {
-        int month = 2, days = 28;
-        System.out.println("Month " + month + " has " + days + " days.");
+        int pies = 10, people = 4;
+        double piesPerPerson = (double) pies / people;
+        System.out.println(piesPerPerson);
     }
 }

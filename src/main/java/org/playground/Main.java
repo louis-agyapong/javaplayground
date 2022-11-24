@@ -14,6 +14,5 @@ public class Main {
         input = keyboard.nextLine(); // Get a line of input.
         answer = input.charAt(0); // Get the first character.
         System.out.println(answer);
-
     }
 }

@@ -23,6 +23,9 @@ public class InputProblem {
         System.out.print("What is your annual income? ");
         income = keyboard.nextDouble();
 
+        // Consume the remaining new line
+        keyboard.nextLine();
+
         // Get the user's name.
         System.out.print("What is your name? ");
         name = keyboard.nextLine();

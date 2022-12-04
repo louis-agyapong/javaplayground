@@ -24,7 +24,8 @@ public class NestedDecisions {
         else if (testScore < 70) JOptionPane.showMessageDialog(null, "Your grade is D");
         else if (testScore < 80) JOptionPane.showMessageDialog(null, "Your grade is C");
         else if (testScore < 90) JOptionPane.showMessageDialog(null, "Your grade is B");
-        else JOptionPane.showMessageDialog(null, "Your grade is A");
+        else if (testScore <= 100) JOptionPane.showMessageDialog(null, "Your grade is A");
+        else JOptionPane.showMessageDialog(null, "Invalid score");
         System.exit(0);
     }
 }

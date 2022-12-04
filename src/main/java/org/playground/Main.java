@@ -6,6 +6,10 @@ public class Main {
         String anotherName = new String("Zion");
 
         addMoneyToAccount(name1, 5000);
+
+        // Ternary Operator
+        int x = 10, y = 5;
+        System.out.println("Your grade is " + ((x <= y) ? "Fail" : "Pass"));
     }
 
     public static void addMoneyToAccount(String accountHolder, int moneyToAdd) {

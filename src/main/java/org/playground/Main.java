@@ -2,14 +2,15 @@ package org.playground;
 
 public class Main {
     public static void main(String[] args) {
-        String name1 = "Zion", name2 = "Zion";
-        String anotherName = new String("Zion");
+        double value1 = 123.45678, value2 = 123.45678, value3 = 123.45678;
+        System.out.printf("%.1f %.2f %.4f", value1, value2, value3);
 
-        addMoneyToAccount(name1, 5000);
+        double amount = 300007890.98787;
+        System.out.printf("\n%,.3f", amount);
 
-        // Ternary Operator
-        int x = 10, y = 5;
-        System.out.println("Your grade is " + ((x <= y) ? "Fail" : "Pass"));
+        int number = 1234;
+        System.out.printf("\nThe number is:%07d", number);
+
     }
 
     public static void addMoneyToAccount(String accountHolder, int moneyToAdd) {

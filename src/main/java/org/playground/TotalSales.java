@@ -1,0 +1,37 @@
+package org.playground;
+
+import javax.swing.*;
+
+/**
+ * This program calculates a running total.
+ */
+
+public class TotalSales {
+    public static void main(String[] args) {
+        int days;   // The number of days
+        double sales;   // A day's sales figure.
+        double totalSales;  // Accumulator.
+        String input;   // To hold user's input
+
+        // Get the number of days.
+        input = JOptionPane.showInputDialog("For how many days do you have sales figures?");
+        days = Integer.parseInt(input);
+
+        // Set the accumulator to 0.
+        totalSales = 0.0;
+
+        // Get the sales figure and accumulate a running total.
+        for (int count = 1; count <= days; count++) {
+            input = JOptionPane.showInputDialog("Enter the sales for day " + count + ":");
+            sales = Double.parseDouble(input);
+            // Add sales to totalSales
+            totalSales += sales;
+        }
+
+        // Display the total sales
+        JOptionPane.showMessageDialog(null, String.format("The total sales are $%,.2f",
+                totalSales));
+        System.exit(0);
+
+    }
+}

@@ -45,6 +45,10 @@ public class BankAccount {
     }
 
     public void setBalance(String str) {
-        this.balance = Double.parseDouble(str);
+        balance = Double.parseDouble(str);
+    }
+
+    public double getBalance() {
+        return balance;
     }
 }

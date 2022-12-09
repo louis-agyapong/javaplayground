@@ -1,5 +1,7 @@
 package org.playground;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -9,30 +11,40 @@ import java.util.Scanner;
 
 public class ArrayDemo1 {
     public static void main(String[] args) {
+        // Number of employees
         final int EMPLOYEES = 3;
+        // Array of hours
         int[] hours = new int[EMPLOYEES];
+        int totalHours = 0;
 
-        // Create a scanner object for keyboard input.
+        // Create a scanner object for keyboard input
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("Enter the hours worked by " +
-                EMPLOYEES + " employee.");
 
-        // Get the hours worked by employee 1
-        System.out.print("Employee 1: " );
-        hours[0] = keyboard.nextInt();
+        System.out.println("Enter the hours worked by " + EMPLOYEES + " employees.");
+        
+        // Get the hours worked by the employees and the sum
+        // of all the hours worked by the employees.
 
-        // Get the hours worked by employee 2
-        System.out.print("Employee 2: ");
-        hours[1] = keyboard.nextInt();
+        for (int i = 0; i < EMPLOYEES; i++) {
+            // Get the hours worked by employees
+            System.out.print("Employee " + (i + 1) + ": ");
+            hours[i] = keyboard.nextInt();
+            totalHours += hours[i];
+        }
 
-        // Get the hours worked by employee 3
-        System.out.print("Employee 3: ");
-        hours[2] = keyboard.nextInt();
+        // Display the total of employee hours worked.
+        System.out.println("Total Employee Hours Worked: " + totalHours);
 
-        // Display the values entered
+        // Display average employees hours worked.
+        double averageHours = Arrays.stream(hours).average().orElseThrow();
+        System.out.println("The Average Employees Hours Worked: " + averageHours);
+
+        // Display hours entered
         System.out.println("The hours you entered are");
-        System.out.println(hours[0]);
-        System.out.println(hours[1]);
-        System.out.println(hours[2]);
+        for (int element: hours) {
+            System.out.println(element);
+        }
+
+
     }
 }

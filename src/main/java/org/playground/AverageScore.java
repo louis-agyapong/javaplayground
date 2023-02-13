@@ -30,6 +30,8 @@ public class AverageScore {
         average = (score1 + score2 + score3) / 3.0;
 
         // Display the average score
+        JOptionPane.showMessageDialog(null, "The average is " + average);
+
         // If the score was greater than 95, let the user know that's a great score
         if (average > 95)
             JOptionPane.showMessageDialog(null, "That's a great score!");

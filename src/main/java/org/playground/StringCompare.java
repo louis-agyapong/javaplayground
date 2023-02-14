@@ -19,5 +19,6 @@ public class StringCompare {
             System.out.println(name1 + " and " + name3 + " are the same.");
         else
             System.out.println(name1 + " and " + name3 + " are NOT the same.");
+
     }
 }

@@ -2,6 +2,6 @@ package org.playground;
 
 public class Main {
     public static void main(String[] args) {
-        String name1 = "Mark";
+        int a = 0, b= 1;
     }
 }

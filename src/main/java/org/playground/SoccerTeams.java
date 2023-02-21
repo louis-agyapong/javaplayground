@@ -6,6 +6,8 @@ import javax.swing.*;
  * This program calculates the number of soccer teams
  * that a youth league may create from the number of available
  * players. Input validation is demonstrated with while loops.
+ * This type of loop is known as user controlled loop because it allows
+ * the user to decide the number of iterations.
  */
 
 public class SoccerTeams {

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc932a26-38cf-453e-a800-243a504f08b7" name="Changes" comment="Decision Statement (Soccer Points [Using a Sentinel Value])">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/playground/Clock.java" afterDir="false" />
+    <list default="true" id="fc932a26-38cf-453e-a800-243a504f08b7" name="Changes" comment="Decision Statement ([Nested Loop])">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/playground/ReactangularPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
       <workItem from="1675921167775" duration="4666000" />
       <workItem from="1676709159612" duration="10140000" />
       <workItem from="1676935844740" duration="745000" />
-      <workItem from="1676936599325" duration="11929000" />
+      <workItem from="1676936599325" duration="16474000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675247615168</created>
@@ -199,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677049982758</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Decision Statement (Simulating a Clock [Nested Loop])">
+      <created>1677062643457</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677062643457</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Decision Statement ([Nested Loop])">
+      <created>1677064322738</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677064322738</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +245,9 @@
     <MESSAGE value="Decision Statement (For Loop)" />
     <MESSAGE value="Decision Statement (For Loop [Total Sales: Accumulator])" />
     <MESSAGE value="Decision Statement (Soccer Points [Using a Sentinel Value])" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decision Statement (Soccer Points [Using a Sentinel Value])" />
+    <MESSAGE value="Decision Statement (Simulating a Clock [Nested Loop])" />
+    <MESSAGE value="Decision Statement ([Nested Loop])" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decision Statement ([Nested Loop])" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
